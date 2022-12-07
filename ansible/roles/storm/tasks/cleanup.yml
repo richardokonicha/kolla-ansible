@@ -1,5 +1,5 @@
 ---
-- name: Stop and remove containers for Storm services
+- name: Stop and remove containers for disabled storm services
   become: true
   kolla_docker:
     action: "stop_and_remove_container"
